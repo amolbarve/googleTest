@@ -15,6 +15,10 @@ public class GmailCreateAccount {
 	private By submitButton = By.id("submitbutton");
 	private By termsOfService = By.id("TermsOfService");
 	
+	//
+	private By skipCaptch = By.id("SkipCaptcha");
+	
+	
 	public GmailCreateAccount(WebDriver driver) {
 		this.driver = driver;
 	}
